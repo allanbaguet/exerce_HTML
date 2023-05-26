@@ -15,15 +15,15 @@
             <ol>
             <li>
                 <label for="Nom">Nom :</label> <!--label associé à un controle en utilisant l'attribut for-->
-                <input type="text" id="nom" name="nom" placeholder="Nom"> <!--input text permet de crée un controle interactif de texte-->
+                <input type="text" id="Nom" name="nom" placeholder="Nom"> <!--input text permet de crée un controle interactif de texte-->
             </li>
             <li>
                 <label for="Prenom">Prénom :</label>
-                <input type="text" id="prenom" name="prenom" placeholder="Prénom">
+                <input type="text" id="Prenom" name="prenom" placeholder="Prénom">
             </li>
             <li>
                 <label for="Adressemail">Adresse mail :</label>
-                <input type="text" id="adressemail" name="adresse mail" placeholder="Adresse mail">
+                <input type="email" id="Adressemail" name="adresse mail" placeholder="Adresse mail">
             </li>
             </ol>           
         </fieldset>
@@ -38,7 +38,7 @@
                 <textarea id="adresse" name="adresse"></textarea> <!--textarea permet d'agrandir la fenetre de texte-->
             </li>   
             <li>
-                <label for="Codepostal">Code postal :</label>
+                <label for="codepostal">Code postal :</label>
                 <input type="text" id="codepostal" name="Code postal" placeholder="Code postal">
             </li> 
             <li>
@@ -56,13 +56,13 @@
             <li>
                 <label for="cartebancaire">Type de carte bancaire :</label>               
             </li>
-            <input type="radio" id="carte" name="Visa"> <!--type radio permet de mettre des puces cliquable-->
+            <input type="radio" id="carte" name="cb" value="cbvisa"> <!--type radio permet de mettre des puces cliquable-->
             <label for="visa">VISA</label> <br>
-            <input type="radio" id="carte2" name="Mastercard">
+            <input type="radio" id="carte2" name="cb" value="cbmasttercard">
             <label for="mastercard">Mastercard</label>
             <li>
                 <label for="numerodecarte">Numéro de carte :</label>
-                <input type="text" id="numerocarte" name="Numero de carte" placeholder="Numéro de carte">
+                <input type="text" id="numerodecarte" name="Numero de carte" placeholder="Numéro de carte">
             </li>
             <li>
                 <label for="codedesecurite">Code de sécurité :</label>
