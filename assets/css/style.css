@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+body {
+    /* margin: 0; */
+    padding: 0;
+    background-color: darkkhaki;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cards2 {
+    display: flex;
+    justify-content: center;
+}
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 40%;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+.card {
+    width: 350px;
+    height: 400px;
+    border: solid 1px black;
+    background-color:sandybrown;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 8px 10px 15px black;   
+    transition: transform .2s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card h1 {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+}
+.card figcaption {
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+}
+.cardtxt p {
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.card-gold {
+    background: linear-gradient(240deg, #FCB931, #896E31 100%);
+    box-shadow: 8px 10px 15px #f1aa18;
+}
+.card-gold h1 {
+    color: silver;
+}
+.card-gold figcaption {
+    color: silver;
+}
+.card-gold p {
+    color: silver;
+}
